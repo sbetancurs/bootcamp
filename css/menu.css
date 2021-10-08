@@ -1,0 +1,22 @@
+.header__nav-item-subnav:hover .header__nav-item-subnav-content {
+  display: block;
+}
+
+.header__nav-item-subnav-content {
+  height: 100%;
+  display: none;
+  position: absolute;
+  margin-top: 1rem;
+  background-color: white;
+  padding: 3rem 2rem;
+}
+
+.header__nav-item-subnav-content > a {
+  text-decoration: none;
+  color: black;
+}
+
+.header__nav-item-subnav-content > a:hover {
+  text-decoration: underline;
+  color: black;
+}

@@ -1,15 +1,15 @@
 footer {
   background-color: #000;
   color: #fff;
-  padding: 5rem 30rem;
+  padding: 5rem 20rem;
 }
 
-h3 {
+footer h3 {
   text-transform: uppercase;
   margin-bottom: 5rem;
 }
 
-li {
+footer li {
   margin: 5rem 0;
   font-weight: 100;
 }
@@ -18,50 +18,50 @@ li:first-child {
   margin-top: 0;
 }
 
-a {
+footer a {
   text-decoration: none;
   color: #fff;
 }
-a:hover {
+footer a:hover {
   text-decoration: underline;
   color: #fff;
 }
 
-.main-row {
+footer .main-row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.copy-row {
+footer .copy-row {
   text-align: center;
   padding-top: 2rem;
 }
 
-.social-media {
+footer .social-media {
   margin-bottom: 5rem;
 }
 
-.social {
+footer .social {
   font-size: 3rem;
   margin-right: 1rem;
 }
 
-input {
+footer input {
   padding: 1rem 0.5rem;
   color: #000;
   width: 80%;
   outline: none;
 }
 
-button {
+footer button {
   padding: 1.3rem;
   background-color: blue;
   width:20%;
 }
 
 @media (max-width: 800px) {
-  .main-row {
+  footer .main-row {
     display: flex;
     flex-direction: column;
   }
@@ -71,17 +71,17 @@ button {
     padding-top: 0;
   }
 
-  h3 {
+  footer h3 {
     margin: 5rem 0;
   }
 
-  li {
+  footer li {
   margin: 2rem 0;
 }
 }
 
 @media (max-width: 480px) {
-  .main-row {
+  footer .main-row {
     display: flex;
     flex-direction: column;
   }
