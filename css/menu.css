@@ -1,9 +1,9 @@
 .header__nav-item-subnav:hover .header__nav-item-subnav-content {
-  display: block;
+  display: flex;
 }
 
 .header__nav-item-subnav-content {
-  height: 100%;
+  width: 100%;
   display: none;
   position: absolute;
   margin-top: 1rem;
@@ -11,12 +11,38 @@
   padding: 3rem 2rem;
 }
 
-.header__nav-item-subnav-content > a {
+.header__nav-item-subnav-content a {
   text-decoration: none;
   color: black;
 }
 
-.header__nav-item-subnav-content > a:hover {
+.header__nav-item-subnav-content a:hover {
   text-decoration: underline;
   color: black;
+}
+
+.header__nav-section {
+  margin: 0 5rem;
+}
+
+.header__nav-section:first-child {
+  margin-left: 0;
+}
+
+.header__nav-section li {
+  margin: 2rem 0;
+}
+
+.header__nav-section a {
+  color: gray;
+}
+
+.header__nav-section small {
+  color: blue;
+  font-weight: bold;
+}
+
+
+.header__nav-section h3{
+  text-transform: uppercase;
 }
